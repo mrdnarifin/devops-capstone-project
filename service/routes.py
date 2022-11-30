@@ -36,7 +36,7 @@ def index():
 
 
 ######################################################################
-# CREATE A NEW ACCOUNT XXX
+# CREATE A NEW ACCOUNT
 ######################################################################
 @app.route("/accounts", methods=["POST"])
 def create_accounts():
